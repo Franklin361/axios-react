@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background: #292c2e;
+    color: white;
+}
+
+h1 {
+    padding: 1em 0 0 0;
+    line-height: .5em;
+    text-align: center;
+}
+
+h2 {
+
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.grid {
+    margin-top: 0em;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.grid>div {
+    min-width: 400px;
+    flex: 1;
+    background: rgb(5, 5, 5);
+    box-shadow: 10px 10px 10px rgba(63, 61, 61, 0.808);
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all .3s ease;
+}
+
+@media screen and (max-width: 500px) {
+    .grid>div {
+        min-width: fit-content;
+    }
+}
+
+.grid>div>p {
+    color: rgb(162, 149, 243);
+    font-weight: bold;
+}
+
+.grid>div>p>span {
+    color: white;
+    font-weight: normal;
+}
+
+
+button {
+    display: block;
+    margin: auto;
+    font-size: 1.2em;
+    padding: 5px;
+    cursor: pointer;
+}
+
+h1~button {
+    margin: 1.5em auto .5em auto;
+}
+
+.grid>.card:hover {
+    cursor: pointer;
+}
+
+.grid>.card:active {
+    transform: scale(.95);
+}
+
+.grid-btn {
+    margin: 1em 0;
+    display: grid;
+    display: flex;
+    gap: 1em;
+    padding: 1em 2em 0em 2em;
+    flex-wrap: wrap;
+}
+
+.grid-btn>button {
+    flex: 1;
+}

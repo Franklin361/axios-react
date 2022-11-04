@@ -52,6 +52,6 @@ This time, we are going to make API requests using axios and react js!
 
 ### Here's the link to the tutorial in case you'd like to take a look at it! eyes 👀
 
-- 🇲🇽 🔗 
+- 🇲🇽 🔗 https://dev.to/franklin030601/como-hacer-peticiones-a-la-api-con-axios-y-react-js-475o
 
-- 🇺🇲 🔗 
+- 🇺🇲 🔗 https://dev.to/franklin030601/how-to-make-api-requests-with-axios-and-react-js-5a07
